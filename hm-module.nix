@@ -25,8 +25,7 @@ in {
       visible = true;
       platforms = {
         linux = {
-          vendorPath = ".zen";
-          configPath = ".zen";
+          configPath = "~/.config/.zen";
         };
         darwin = {
           configPath = "Library/Application Support/Zen";
